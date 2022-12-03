@@ -8,7 +8,8 @@ import 'package:docapp/services/globals.dart' as globals;
 
 Future<void> main() async {
 
-
+  //Login info
+  
   var conn =
       PostgreSQLConnection(host, port, db, username: user, password: password);
   try {
