@@ -7,11 +7,7 @@ import 'package:docapp/views/login_screen.dart';
 import 'package:docapp/services/globals.dart' as globals;
 
 Future<void> main() async {
-  String host = "abul.db.elephantsql.com";
-  int port = 5432;
-  String db = "ruandfvf";
-  String user = "ruandfvf";
-  String password = "00QEB0VXqCxPFLsP5SIfPW_hWL6e3out";
+
 
   var conn =
       PostgreSQLConnection(host, port, db, username: user, password: password);
